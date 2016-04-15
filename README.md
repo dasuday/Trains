@@ -25,7 +25,8 @@ Each line of the input file has three comma separated values. The first value is
 Thus the following line in the input file would represent the edge A-->E with a weight of 5:
 A,E,5
 
-# Notes on present version
-The present implementation is simple aimed at responding to the questions on the problem page. 
+# Notes on present versions
+Trains.java: This implementation is simple aimed at responding to the questions on the problem page. 
+Trains2.java: Modified Trains.java to have a method based implementation. 
 
-This version can be extended to have methods and respond to a test file.
+The next stage is to drive the process with a testfile. 
