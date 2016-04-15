@@ -22,5 +22,10 @@ Input here is being defined in a textfile called "input.txt." Each line of the t
 
 Each line of the input file has three comma separated values. The first value is the name of the origin vertex, the second value is the incident vertex and the third value is the edge weight.
 
-Thus the following line in the input file would represent thed edge A-->E with a weight of 5:
+Thus the following line in the input file would represent the edge A-->E with a weight of 5:
 A,E,5
+
+# Notes on present version
+The present implementation is simple aimed at responding to the questions on the problem page. 
+
+This version can be extended to have methods and respond to a test file.
