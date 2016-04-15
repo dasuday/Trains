@@ -30,4 +30,4 @@ Trains.java: This implementation is simple aimed at responding to the questions 
 
 Trains2.java: Modified Trains.java to have a method based implementation. 
 
-The next stage is to drive the process with a testfile. 
+The next stage would be to drive the process with a testfile. 
