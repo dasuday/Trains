@@ -187,9 +187,7 @@ public class Trains {
 			pathLength = 0;
 			pathsList = trainsList.get(i).getEdgeList();
 			for(int j=0; j<pathsList.size(); j++){
-				source = pathsList.get(j).toString().charAt(1);
-				target = pathsList.get(j).toString().charAt(5);
-				pathLength = pathLength + (int)trainsGraph.getEdgeWeight(trainsGraph.getEdge(Character.toString(source), Character.toString(target)));
+				pathLength = pathLength + (int)trainsGraph.getEdgeWeight(pathsList.get(j));
 			}
 			//System.out.println(pathLength);
 			pathLengths.add(pathLength);
@@ -216,9 +214,7 @@ public class Trains {
 			pathLength = 0;
 			pathsList = trainsList.get(i).getEdgeList();
 			for(int j=0; j<pathsList.size(); j++){
-				source = pathsList.get(j).toString().charAt(1);
-				target = pathsList.get(j).toString().charAt(5);
-				pathLength = pathLength + (int)trainsGraph.getEdgeWeight(trainsGraph.getEdge(Character.toString(source), Character.toString(target)));
+				pathLength = pathLength + (int)trainsGraph.getEdgeWeight(pathsList.get(j));
 			}
 
 			if(pathLength < 30){
