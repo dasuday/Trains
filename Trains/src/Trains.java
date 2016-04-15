@@ -174,7 +174,6 @@ public class Trains {
 		//Housekeeping items for problem solutions 9 & 10 below
 		Vector pathLengths = new Vector();
 		List<DefaultWeightedEdge> pathsList = null;
-		char source, target;
 		int pathLength;
 
 		/*
